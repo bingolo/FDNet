@@ -58,14 +58,14 @@ identical copies can be summed after training), the gain is interpreted as a cha
 
 Slice-level five-fold protocol, Dice similarity coefficient (DSC):
 
-| Model | Params | ADNI | Decathlon | IBSR |
-|---|---|---|---|---|
-| FDNetX2 | 530,146 | 0.9321 | 0.9453 | **0.9477** |
-| FDNetX3 | 578,530 | **0.9339** | **0.9470** | 0.9471 |
-| FDNetX4 | 626,914 | 0.9327 | 0.9446 | 0.9453 |
-| U-Net | 34,512,258 | 0.9173 | 0.9415 | 0.9236 |
-| Attention U-Net | 37,306,190 | 0.8910 | 0.9175 | 0.8459 |
-| SegNet | 88,092,546 | 0.9240 | 0.9394 | 0.9464 |
+| Model |  ADNI | Decathlon | IBSR |
+|---|---|---|---|
+| FDNetX2 | 0.9321 | 0.9453 | **0.9477** |
+| FDNetX3 |  **0.9339** | **0.9470** | 0.9471 |
+| FDNetX4 |  0.9327 | 0.9446 | 0.9453 |
+| U-Net |  0.9173 | 0.9415 | 0.9236 |
+| Attention U-Net |  0.8910 | 0.9175 | 0.8459 |
+| SegNet |  0.9240 | 0.9394 | 0.9464 |
 
 Subject-grouped protocol on ADNI (fixed held-out test set, 19 subjects / 34 volumes), subject-level
 test Dice:
